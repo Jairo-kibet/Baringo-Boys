@@ -1,6 +1,6 @@
 {% extends "baringo/index.html" %}
 {% load static %}
-{% block current_page %}Contact| {% endblock current_page %}
+{% block current_page %}Departments{% endblock current_page %}
 {% block header_link %}
 
 {% endblock header_link %}
@@ -25,520 +25,128 @@
             </h4>
 
             <h1 class="display-5 mb-4">
-                Academics & Departments
+                Our Academic Departments
             </h1>
 
             <p class="academics-intro mx-auto">
-                Our academic departments provide a supportive and
-                stimulating learning environment where learners develop
-                knowledge, practical skills, creativity and critical
-                thinking. Through the Competency-Based Education
-                framework, our departments deliver learning experiences
-                that prepare students for higher education and the
-                challenges of the modern world.
+                Our academic departments provide quality learning
+                experiences that nurture knowledge, creativity,
+                practical skills and critical thinking. Through
+                dedicated teaching and learner-centred approaches,
+                we prepare students for future opportunities.
             </p>
 
         </div>
 
 
-        <!-- Academic Overview -->
-        <div class="academic-overview mb-5 wow fadeInUp"
-             data-wow-delay="0.2s">
+        <!-- Departments Grid -->
+        <div class="row g-4">
 
-            <div class="row align-items-center g-4">
+            <!-- Mathematics -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
 
-                <div class="col-lg-8">
-
-                    <div class="overview-content">
-
-                        <span class="overview-label">
-                            Our Academic Structure
-                        </span>
-
-                        <h2>
-                            Knowledge, Skills and Practical Learning
-                        </h2>
-
-                        <p>
-                            Our departments are organized around five
-                            major academic areas: Mathematics, Sciences,
-                            Humanities, Applied & Technical Studies and
-                            Languages. Together, they support the
-                            development of learners across the Senior
-                            School curriculum and its learning pathways.
-                        </p>
-
+                    <div class="department-icon">
+                        <i class="fas fa-calculator"></i>
                     </div>
 
-                </div>
+                    <h4>Mathematics</h4>
 
-                <div class="col-lg-4">
-
-                    <div class="overview-statistics">
-
-                        <div class="overview-stat">
-                            <h3>5</h3>
-                            <span>Academic Areas</span>
-                        </div>
-
-                        <div class="overview-stat">
-                            <h3>11</h3>
-                            <span>Subject Groups</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Mathematics & Sciences -->
-        <div class="academic-category mb-5">
-
-            <div class="academic-category-heading">
-
-                <div class="category-icon">
-                    <i class="fas fa-flask"></i>
-                </div>
-
-                <div>
-                    <span>01 / Academic Area</span>
-                    <h2>Mathematics & Sciences</h2>
                     <p>
-                        Developing analytical thinking, scientific
-                        understanding and problem-solving abilities.
+                        Developing logical reasoning, numerical
+                        understanding and problem-solving abilities
+                        through practical mathematical learning.
                     </p>
-                </div>
 
+                    <div class="department-subjects">
+                        <span>Mathematics</span>
+                    </div>
+
+                </div>
             </div>
 
 
-            <div class="row g-4">
+            <!-- Languages -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
 
-                <!-- Mathematics -->
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-square-root-alt"></i>
-                        </div>
-
-                        <h4>Mathematics</h4>
-
-                        <p class="department-description">
-                            Building logical reasoning, numerical
-                            understanding and mathematical problem-solving.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Mathematics (Core)</li>
-                                <li>Additional Mathematics</li>
-                            </ul>
-                        </div>
-
+                    <div class="department-icon">
+                        <i class="fas fa-language"></i>
                     </div>
 
-                </div>
+                    <h4>Languages</h4>
 
-
-                <!-- Biology -->
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-dna"></i>
-                        </div>
-
-                        <h4>Biology</h4>
-
-                        <p class="department-description">
-                            Exploring living organisms, biological
-                            processes and the natural environment.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Biology</li>
-                                <li>Physical Education</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Chemistry -->
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-vial"></i>
-                        </div>
-
-                        <h4>Chemistry</h4>
-
-                        <p class="department-description">
-                            Understanding matter, chemical reactions
-                            and their applications in everyday life.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Chemistry</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Physics -->
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-atom"></i>
-                        </div>
-
-                        <h4>Physics</h4>
-
-                        <p class="department-description">
-                            Exploring energy, matter, forces and the
-                            scientific principles governing the universe.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Physics</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Humanities -->
-        <div class="academic-category mb-5">
-
-            <div class="academic-category-heading">
-
-                <div class="category-icon">
-                    <i class="fas fa-globe-africa"></i>
-                </div>
-
-                <div>
-                    <span>02 / Academic Area</span>
-                    <h2>Humanities & Business Studies</h2>
-                    <p>
-                        Understanding society, history, culture,
-                        governance and economic development.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <!-- Humanities -->
-                <div class="col-md-6 col-lg-6">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-landmark"></i>
-                        </div>
-
-                        <h4>Humanities</h4>
-
-                        <p class="department-description">
-                            Developing social awareness, cultural
-                            understanding, citizenship and responsible
-                            decision-making.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>History & Government</li>
-                                <li>Geography</li>
-                                <li>Religious Education</li>
-                                <li>Life Skills</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Business Studies -->
-                <div class="col-md-6 col-lg-6">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-
-                        <h4>Business Studies</h4>
-
-                        <p class="department-description">
-                            Equipping learners with financial knowledge,
-                            entrepreneurial skills and business awareness.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Business Studies</li>
-                                <li>Economics</li>
-                                <li>Accounting</li>
-                                <li>Entrepreneurship</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Applied & Technical -->
-        <div class="academic-category mb-5">
-
-            <div class="academic-category-heading">
-
-                <div class="category-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-
-                <div>
-                    <span>03 / Academic Area</span>
-                    <h2>Applied & Technical Studies</h2>
-                    <p>
-                        Encouraging innovation, technological
-                        advancement, practical skills and creativity.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <!-- Computer Science -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-
-                        <h4>Computer Science & ICT</h4>
-
-                        <p class="department-description">
-                            Developing digital competencies, computational
-                            thinking and technological problem-solving skills.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Computer Science</li>
-                                <li>Information Technology</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Home Science -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-leaf"></i>
-                        </div>
-
-                        <h4>Home & Environmental Science</h4>
-
-                        <p class="department-description">
-                            Promoting practical life skills,
-                            environmental awareness and sustainable living.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Home Science</li>
-                                <li>Environmental Science</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Creative Arts -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="department-card">
-
-                        <div class="department-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-
-                        <h4>Creative Arts & Sports</h4>
-
-                        <p class="department-description">
-                            Nurturing creativity, artistic expression,
-                            physical development and sporting abilities.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Visual Arts</li>
-                                <li>Music, Dance & Drama</li>
-                                <li>Sports Science</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Languages -->
-        <div class="academic-category mb-5">
-
-            <div class="academic-category-heading">
-
-                <div class="category-icon">
-                    <i class="fas fa-language"></i>
-                </div>
-
-                <div>
-                    <span>04 / Academic Area</span>
-                    <h2>Languages & Literature</h2>
                     <p>
                         Building effective communication, language
-                        proficiency, literary appreciation and expression.
+                        proficiency, reading, writing and literary
+                        appreciation.
                     </p>
-                </div>
 
+                    <div class="department-subjects">
+                        <span>English</span>
+                        <span>Kiswahili</span>
+                    </div>
+
+                </div>
             </div>
 
 
-            <div class="row g-4">
+            <!-- Humanities -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
 
-                <!-- English -->
-                <div class="col-md-6">
+                    <div class="department-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
 
-                    <div class="department-card">
+                    <h4>Humanities</h4>
 
-                        <div class="department-icon">
-                            <i class="fas fa-book-open"></i>
-                        </div>
+                    <p>
+                        Helping learners understand society, history,
+                        culture, geography and their responsibilities
+                        as citizens.
+                    </p>
 
-                        <h4>English & Literature</h4>
-
-                        <p class="department-description">
-                            Developing effective communication,
-                            reading, writing and literary appreciation.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>English Language</li>
-                                <li>English Literature</li>
-                            </ul>
-                        </div>
-
+                    <div class="department-subjects">
+                        <span>History</span>
+                        <span>Geography</span>
+                        <span>Religious Education</span>
                     </div>
 
                 </div>
+            </div>
 
 
-                <!-- Kiswahili -->
-                <div class="col-md-6">
+            <!-- Applied & Technical -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
 
-                    <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
 
-                        <div class="department-icon">
-                            <i class="fas fa-book-reader"></i>
-                        </div>
+                    <h4>Applied & Technical</h4>
 
-                        <h4>Kiswahili</h4>
+                    <p>
+                        Encouraging innovation, creativity and
+                        practical skills through technology,
+                        technical learning and applied knowledge.
+                    </p>
 
-                        <p class="department-description">
-                            Strengthening language proficiency,
-                            cultural identity and effective communication.
-                        </p>
-
-                        <div class="subject-list">
-                            <h6>Subjects Offered</h6>
-
-                            <ul>
-                                <li>Kiswahili Lugha</li>
-                                <li>Kiswahili Fasihi</li>
-                            </ul>
-                        </div>
-
+                    <div class="department-subjects">
+                        <span>Computer Studies</span>
+                        <span>Creative Arts</span>
+                        <span>Technical Studies</span>
                     </div>
 
                 </div>
-
             </div>
 
         </div>
 
 
-        <!-- Closing Academic Statement -->
-        <div class="academics-cta text-center">
+        <!-- Academic Closing -->
+        <div class="academics-cta text-center mt-5">
 
             <div class="academics-cta-icon">
                 <i class="fas fa-graduation-cap"></i>
@@ -547,10 +155,10 @@
             <h2>Learning Today, Leading Tomorrow</h2>
 
             <p>
-                Through dedicated teaching, meaningful learning
-                experiences and a commitment to academic excellence,
-                we empower learners to discover their potential and
-                build a strong foundation for their future.
+                Our departments work together to provide a balanced
+                education that empowers every learner to discover
+                their abilities, develop essential skills and achieve
+                their full potential.
             </p>
 
             <a href="{% url 'cbe' %}"
@@ -565,6 +173,7 @@
 
 </section>
 <!-- Academics & Departments End -->
+
 
 
 <!-- Footer Start -->

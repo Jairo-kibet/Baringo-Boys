@@ -16,5 +16,6 @@ urlpatterns = [
     path("principal/", v.principal, name="principal"),
     path("student_life/", v.student_life, name="student_life"),
     path("cbe/", v.cbe, name="cbe"),
-    path("departments/", v.departments, name="departments")
+    path("departments/", v.departments, name="departments"),
+    path("kcse/", v.kcse, name="kcse")
 ]

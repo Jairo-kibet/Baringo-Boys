@@ -1,6 +1,6 @@
 {% extends "baringo/index.html" %}
 {% load static %}
-{% block current_page %}Contact| {% endblock current_page %}
+{% block current_page %}Student Life{% endblock current_page %}
 {% block header_link %}
 
 {% endblock header_link %}
@@ -12,50 +12,6 @@
 
 
 
-<!-- Student Life Page Start -->
-<section class="student-life-page">
-
-    <!-- Page Hero Start -->
-    <div class="student-life-hero">
-        <div class="student-life-hero-overlay"></div>
-
-        <div class="container student-life-hero-content">
-            <div class="hero-label">
-                <span></span>
-                LIFE BEYOND THE CLASSROOM
-            </div>
-
-            <h1>
-                Discover. Participate.
-                <span>Become More.</span>
-            </h1>
-
-            <p>
-                A vibrant school community where students discover their
-                talents, build friendships, develop leadership skills and
-                create unforgettable experiences.
-            </p>
-
-            <div class="student-life-hero-buttons">
-                <a href="#clubs" class="btn student-life-btn">
-                    Explore Activities
-                    <i class="fas fa-arrow-right ms-2"></i>
-                </a>
-
-                <a href="#sports" class="student-life-outline-btn">
-                    Sports & Games
-                </a>
-            </div>
-        </div>
-
-        <div class="student-life-hero-bottom">
-            <span>BARINGO BOYS NATIONAL SCHOOL</span>
-            <span>HOLISTIC STUDENT DEVELOPMENT</span>
-        </div>
-    </div>
-    <!-- Page Hero End -->
-
-
     <!-- Introduction Start -->
     <section class="container student-life-intro py-5">
 
@@ -63,7 +19,7 @@
 
             <div class="col-lg-6">
                 <div class="student-life-image-wrapper">
-                    <img src="{% static 'baringo/img/student-life.jpg' %}"
+                    <img src="{% static 'baringo/img/b2.jpeg' %}"
                          alt="Students participating in school activities"
                          class="img-fluid student-life-main-image">
 
@@ -113,13 +69,13 @@
                     members of society.
                 </p>
 
-                <div class="student-life-highlight">
+                <!-- <div class="student-life-highlight">
                     <i class="fas fa-medal"></i>
                     <span>
                         Developing well-rounded learners with the confidence
                         to make a positive difference.
                     </span>
-                </div>
+                </div> -->
 
             </div>
 
@@ -135,10 +91,11 @@
         <div class="container py-4">
 
             <div class="section-title text-center mb-5">
-
+              <div class="sub-style">
                 <h4 class="sub-title px-3 mb-0">
                     Explore Your Interests
                 </h4>
+                </div>
 
                 <h1 class="display-5 mb-3">
                     Our Clubs & Societies
@@ -379,7 +336,7 @@
 
                     <div class="chaplaincy-image-wrapper">
 
-                        <img src="{% static 'baringo/img/chaplain.jpg' %}"
+                        <img src="{% static 'baringo/img/ava.jpg' %}"
                              alt="School chaplain"
                              class="img-fluid chaplaincy-image">
 
@@ -397,10 +354,11 @@
                 <div class="col-lg-7">
 
                     <div class="section-title text-start mb-4">
-
+                     <div class="sub-style">
                         <h4 class="sub-title pe-3 mb-0">
                             Faith & Spiritual Growth
                         </h4>
+                        </div>
 
                         <h1 class="display-5 mb-3">
                             Welcome to the Chaplaincy Department
@@ -440,7 +398,7 @@
 
 
                     <!-- Bible Verse -->
-                    <div class="chaplaincy-verse">
+                    <!-- <div class="chaplaincy-verse">
 
                         <i class="fas fa-quote-left"></i>
 
@@ -454,7 +412,7 @@
 
                         <strong>Colossians 2:6–7</strong>
 
-                    </div>
+                    </div> -->
 
 
                     <div class="chaplaincy-signature">
@@ -503,7 +461,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/football.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Football">
                             <span>01</span>
                         </div>
@@ -528,7 +486,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/volleyball.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Volleyball">
                             <span>02</span>
                         </div>
@@ -553,7 +511,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/athletics.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Athletics">
                             <span>03</span>
                         </div>
@@ -578,7 +536,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/netball.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Netball">
                             <span>04</span>
                         </div>
@@ -603,7 +561,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/basketball.jpg' %}"
+                            <img src="{% static 'baringo/img/b1.jpeg' %}"
                                  alt="Basketball">
                             <span>05</span>
                         </div>
@@ -628,7 +586,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/handball.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Handball">
                             <span>06</span>
                         </div>
@@ -653,7 +611,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sport-card">
                         <div class="sport-image">
-                            <img src="{% static 'baringo/img/sports/badminton.jpg' %}"
+                            <img src="{% static 'baringo/img/b2.jpeg' %}"
                                  alt="Badminton">
                             <span>07</span>
                         </div>

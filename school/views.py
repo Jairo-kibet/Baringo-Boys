@@ -42,3 +42,6 @@ def cbe(request):
 
 def departments(request):
     return render(request, "baringo/departments.html")
+
+def kcse(request):
+    return render(request, "baringo/kcse.html")
